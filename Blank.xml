@@ -62,7 +62,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/inokhrin/REED-test/main/Blank.xml?person_annotation_20240229164730579#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/persName[3]"
+			"rdf:value": "TEI/text/body/div/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -140,7 +140,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/inokhrin/REED-test/main/Blank.xml?person_annotation_20240229164803434#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/persName[2]"
+			"rdf:value": "TEI/text/body/div/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -297,7 +297,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/inokhrin/REED-test/main/Blank.xml?person_annotation_20240301091530012#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[2]/persName"
+			"rdf:value": "TEI/text/body/div/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -314,4 +314,83 @@
 	}
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader><text><body><div><p>Petition to the Lord Admiral by the Watermen</p><p>To the right honnorable my Lorde Haywarde Lorde highe Admirall of Englande and one of her maiesties moste honnorable previe Counsayle/In moste hvmble manner Complayneth and sheweth vnto your good Lordeshipp, your poore suppliantes and dayly Oratours <persName key="Phillip Henslowe" ref="https://ereed.library.utoronto.ca/entities/129736/">Phillipp Henslo</persName>, and others the poore watermen on the bancke side/ whereas your good Lordship hathe derected your warrant vnto hir maiesties Iustices, for the restraynte of a playe howse beinge belonginge vnto the saide Phillipp Henslo &amp;lt;.&amp;gt; one of the groomes of her maiesties Chamber So it is if it please your good Lordshipp, that wee your saide poore watermen have had muche helpe and reliefe for vs oure poore wives and Childeren by meanes of the resorte of suche people as come vnto the said playe howse, It maye therefore please your good Lordship for godes sake and in the waye of Charetie to respecte vs your poore water&amp;lt;.&amp;gt; men, and to give leave vnto the said Phillipp Henslo to have playinge in his saide howse duringe suche tyme as others have according as it hathe byne accustomed/ And in your honnors so doinge yow shall not onely doe a good and a Charitable dede but also bynde vs all according to oure dewties, with oure poore wives and Children dayly to praye for your honnor in mvche happynes longe to lyve(signed) Isack TowellEdward X Robartes mark on of her Maiesties wattermen(signed) Thomes coxThomas X Edmanson markeEdwarde X Adysson on of her Maiesties wattermenW T Ieames X GraingerChristoffer X topen marke(signed) William dorret master of her Maiestes bargeGyllam X Rockett marke on of her Maiesties wattermen(signed) wylliam hodges quens manThomas X Farmonger on of her Maiesties wattermenwilliam X Tuchenner on of her Maiesties mean(signed) Iames Russell(signed) Henry droaper(signed) <persName key="Fardinando Blacke" ref="https://ereed.library.utoronto.ca/entities/138293/">Fardinando Blacke</persName>(signed) <persName key="Parker Playne" ref="https://ereed.library.utoronto.ca/entities/142771/">Parker Playne</persName></p></div></body></text></TEI>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/inokhrin/REED-test/main/Blank.xml?keyword_annotation_20240301093549750",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-01T14:35:49.750Z",
+	"dcterms:modified": "2024-03-01T14:35:49.750Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/inokhrin",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Illya Nokhrin"
+	},
+	"oa:motivatedBy": "oa:tagging",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/inokhrin/REED-test/main/Blank.xml?keyword_annotation_20240301093549750#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/inokhrin/REED-test/main/Blank.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/inokhrin/REED-test/main/Blank.xml?keyword_annotation_20240301093549750#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/seg"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "fabio:UncontrolledVocabulary",
+		"dc:format": "text/xml",
+		"rdf:value": "playing"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader><text><body><div><p>Petition to the Lord Admiral by the Watermen</p>To the right honnorable my Lorde Haywarde Lorde highe Admirall of Englande and one of her maiesties moste honnorable previe Counsayle/In moste hvmble manner Complayneth and sheweth vnto your good Lordeshipp, your poore suppliantes and dayly Oratours <persName key="Phillip Henslowe" ref="https://ereed.library.utoronto.ca/entities/129736/">Phillipp Henslo</persName>, and others the poore watermen on the bancke side/ whereas your good Lordship hathe derected your warrant vnto hir maiesties Iustices, for the restraynte of a playe howse beinge belonginge vnto the saide Phillipp Henslo &amp;lt;.&amp;gt; one of the groomes of her maiesties Chamber So it is if it please your good Lordshipp, that wee your saide poore watermen have had muche helpe and reliefe for vs oure poore wives and Childeren by meanes of the resorte of suche people as come vnto the said playe howse, It maye therefore please your good Lordship for godes sake and in the waye of Charetie to respecte vs your poore water&amp;lt;.&amp;gt; men, and to give leave vnto the said Phillipp Henslo to have playinge<seg type="keyword"><term>playing</term></seg> in his saide howse duringe suche tyme as others have according as it hathe byne accustomed/ And in your honnors so doinge yow shall not onely doe a good and a Charitable dede but also bynde vs all according to oure dewties, with oure poore wives and Children dayly to praye for your honnor in mvche happynes longe to lyve(signed) Isack TowellEdward X Robartes mark on of her Maiesties wattermen(signed) Thomes coxThomas X Edmanson markeEdwarde X Adysson on of her Maiesties wattermenW T Ieames X GraingerChristoffer X topen marke(signed) William dorret master of her Maiestes bargeGyllam X Rockett marke on of her Maiesties wattermen(signed) wylliam hodges quens manThomas X Farmonger on of her Maiesties wattermenwilliam X Tuchenner on of her Maiesties mean(signed) Iames Russell(signed) Henry droaper(signed) <persName key="Fardinando Blacke" ref="https://ereed.library.utoronto.ca/entities/138293/">Fardinando Blacke</persName>(signed) <persName key="Parker Playne" ref="https://ereed.library.utoronto.ca/entities/142771/">Parker Playne</persName></div></body></text></TEI>
